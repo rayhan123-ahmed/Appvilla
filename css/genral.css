@@ -19,7 +19,7 @@ body {
   color: #ffffff;
 }
 .container {
-  max-width: 132rem;
+  max-width: 136rem;
   padding: 0 3rem;
   margin: 0 auto;
 }
@@ -28,4 +28,14 @@ a {
 }
 ul {
   list-style: none;
+}
+.align-items{
+  align-items: center;
+}
+.log-100{
+  flex: 0 0 auto;
+  width: 100%;
+}
+.row{
+  display: flex;
 }

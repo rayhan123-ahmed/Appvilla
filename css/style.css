@@ -1,0 +1,124 @@
+/* *********** */
+/* HEADER SECTION */
+/* *********** */
+.header {
+    width: 100%;
+    background: transparent;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    height: 9rem;
+}
+.navbar-brand {
+    width: 15rem;
+    padding: 0.6rem 1rem .6rem 0rem;
+}
+.nav-mid {
+    flex-grow: 1;
+    align-items: center;
+    display: flex;
+} 
+.nav-ul{
+    margin-right: auto !important;
+    margin-left: auto !important;
+    display: flex;
+}
+.nav-item{
+    margin-right: 3.6rem;
+}
+.nav-ul .nav-item:last-child{
+    margin-right: 0 !important;
+}
+.nav-link {
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 3.8rem 0;
+}
+.nav-btn{
+    margin-left: 1rem;
+}
+.btn {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+    padding: 1.4rem 3rem;
+    border: 2px solid #fff;
+    border-radius: .7rem;
+    transition: all .3s;
+}
+.btn:hover {
+  background-color: #fff;
+  color: #ff6b81;
+}
+/* *********** */
+/* HERO SECTION */
+/* *********** */
+ .hero{
+    position: relative;
+    background: #ff6b81;
+    padding:16rem 0 12rem 
+}
+ .home-box-left{
+    flex: 0 0 auto;
+    width: 41.6666666667%;
+    margin : 0rem  1.4rem;
+ }
+ .home-box-right{
+    flex: 0 0 auto;
+    width: 58.3333333333%;
+    margin : 0rem  1.4rem;
+ }
+.hero-h1 {
+    color: #fff;
+    font-size: 4rem;
+    font-weight: bold;
+    line-height: 5rem;
+}
+.hero-p {
+    margin-top: 4rem;
+    color: #fff;
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 2.6rem;
+}
+.hero-btn{
+    margin-top: 3.6rem;
+}
+.hero-btn a i{
+    margin-right: .6rem;
+}
+.app-store {
+    margin-right: 1.6rem;
+    padding: 1.4rem 2.8rem;
+    background-color: #fff;
+    color: #ff6b81;
+    font-size: 1.6rem;
+    font-weight: 700;
+    display: inline-block;
+    border-radius: .6rem;
+    transition: all .2s;
+}
+.app-store:hover{
+    background-color: #020202;
+    color: #fff;
+}
+.play-store{
+    padding: 1.4rem 2.8rem;
+    color: #fff;
+    font-size: 1.6rem;
+    font-weight: 700;
+    display: inline-block;
+    border-radius: .6rem;
+    border: 2px solid #fff;
+    transition: all .2s;
+}
+.play-store:hover{
+   background-color: #fff;
+   color: #ff6b81;
+}

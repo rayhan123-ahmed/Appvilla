@@ -188,3 +188,37 @@
 .warp{
      flex-wrap: wrap; 
 }
+/* *********** */
+/* ACHIEVEMENT SECTION */
+/* *********** */
+.achievmenet{
+    background-color: #ff6b81;
+    padding: 10rem 0;
+}
+.title{
+    text-align: center;
+}
+.title h2 {
+    color: #fff;
+    font-size: 3.4rem;
+    margin-bottom: 1.2rem;
+}
+.title p {
+    color: #fff;
+    font-size: 1.4rem;
+    line-height: 4rem;
+}
+.single-ach{
+    margin-top: 4rem;
+    padding: 0 1rem;
+}
+.single-ach h3{
+   color: #fff;
+   font-size: 4.2rem;
+   margin-bottom: 1rem;
+   font-weight: 800;
+}
+.single-ach p{
+   color: #fff;
+   font-size: 1.5rem;
+}

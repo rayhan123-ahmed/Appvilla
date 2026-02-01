@@ -222,3 +222,85 @@
    color: #fff;
    font-size: 1.5rem;
 }
+/* *********** */
+/* PRICING SECTION */
+/* *********** */
+.single-table{
+    border: 1px solid #eee;
+    color: #fff;
+    margin-top: 3rem;
+    transition: all 0.5s cubic-bezier(0.68, -0.55, 0.27, 1.55) 0s;
+}
+.single-table:hover{
+    box-shadow: 0px 3px 5px #00000017;
+   transform: translateY(-5px);
+}
+.table-head{
+    padding: 2.4rem;
+    border-bottom: 1px solid #eee;
+}
+.table-head h4 {
+    color: #020202;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+.table-head p {
+    color: #888;
+    font-size: 1.5rem;
+    line-height: 2.2rem;
+    font-weight: 400;
+}
+.price{
+    padding: 3rem 0;
+}
+.amount h2 {
+    color: #081828;
+    font-size: 2.8rem;
+}
+.duration {
+    color: #888;
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+.pr-btn {
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 600;
+    background-color: #020202;
+    padding: 1.4rem 3.4rem;
+    border-radius: .7rem;
+    transition: all 0.3s;
+}
+.pr-btn:hover {
+    background-color: #ff6b81;
+}
+.pr-btn a{
+   color: #fff;
+}
+.table-content{
+    padding: 2.4rem;
+}
+.table-content h4 {
+    color: #081828;
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-bottom: 2.2rem;
+}
+.cheack-li{
+    position: relative;
+    padding-left: 2.6rem;
+    font-size: 1.4rem;
+    margin-bottom: 1.6rem;
+}
+.cheack-li p{
+    color: #888;
+    font-size: 1.4rem;
+}
+.cheack{
+    color: #ff6b81;
+    font-size: 1.5rem;
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+}

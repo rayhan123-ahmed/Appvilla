@@ -309,7 +309,7 @@
 /* *********** */
 .call-action{
     background-color: #ff6b81;
-    padding: 7rem 0;
+    padding: 12rem 0;
 }
 .cta-content{
     text-align: center;
@@ -338,4 +338,66 @@
 .btn-link:hover {
     background-color: #020202;
     color: #fff;
+}
+/* *********** */
+/*FOOTER SECTION */
+/* *********** */
+footer{
+    background-color: #081828;
+}
+.footer-top{
+    padding: 10rem 0;
+}
+.single-footer{
+    padding-right: 4rem;
+}
+.logo a img{
+    width: 18rem;
+}
+.single-footer p {
+    color: #D2D6DC;
+    font-size: 1.4rem;
+    line-height: 2rem;
+    margin-top: 3rem;
+    font-weight: 500;
+}
+.scoial{
+    margin-top: 4rem;
+}
+.scoial li {
+    margin-right: 2.6rem;
+}
+.scoial li:last-child {
+    margin: 0;
+}
+.scoial li a {
+    color: #fff;
+    font-size: 1.4rem;
+}
+.copyright-text{
+    margin-top: 5rem !important;
+}
+.copyright-text a{
+    color: #D2D6DC;
+    transition: all .2s;
+}
+.copyright-text a:hover{
+    color: #ff6b81;
+}
+.single-footer-right h3 {
+    color: #D2D6DC;
+    font-size: 1.8rem;
+    margin-bottom: 5.2rem;
+}
+.single-footer-right ul li {
+   display: block;
+   margin-bottom: 2.4rem;
+}
+.single-footer-right ul li a {
+   font-size: 1.6rem;
+   color: #D2D6DC;
+   transition: all .1s;
+}
+.single-footer-right ul li a:hover {
+   color: #ff6b81;
 }

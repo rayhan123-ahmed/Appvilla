@@ -48,6 +48,10 @@ ul {
   flex: 0 0 auto;
   width: 80%;
 }
+.log-66{
+  flex: 0 0 auto;
+  width: 66.6666666667%;
+}
 .col-log-33{
   flex: 0 0 auto;
   width: 33.3333333333%;
@@ -61,9 +65,11 @@ ul {
 .offset-01{
   margin-left: 24%;
 }
+.offset-02{
+  margin-left: 16.6666666667%;
+}
 .row{
   display: flex;
-
 }
 .section{
   padding-top: 10rem;

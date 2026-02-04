@@ -1,0 +1,89 @@
+/* *********** */
+/* BELOW 1200px  */
+/* *********** */
+@media  (max-width: 75em){
+    .container {
+    max-width: 110rem;
+    }
+}
+/* *********** */
+/* BELOW 1000px  */
+/* *********** */
+@media  (max-width: 62.5em){
+.container {
+    max-width: 80rem;
+}
+.row{
+      flex-wrap: wrap;
+      justify-content: center;
+}
+.home-box-left{
+      width: 100%;
+      text-align: center;
+      margin-bottom: 2rem;
+}
+.hero-h1 {
+        font-size: 3rem;
+}
+.hero-p {
+     margin-top: 2rem;
+}
+.home-box-right{
+      width: 100%;
+}
+.section-title h2 {
+      font-size: 2.4rem;
+      margin-bottom: 2rem;
+}
+.section-title p {
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+.col-log-33 {
+    width: 50%;
+}
+.margin {
+    margin-top: 4rem;
+}
+.title h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+.title p {
+    font-size: 1.6rem;
+}
+.cl-md-01{
+    width: 33.3333333333%;
+}
+.offset-01,
+.offset-02 {
+    margin-left: 0%;
+}
+.single-ach h3 {
+    font-size: 3.2rem;
+}
+.col-log-25 {
+    width: 50%;
+    margin-bottom: 2rem;
+}
+.cta-content h2 {
+    font-size: 3.2rem;
+    line-height: 4rem;;
+}.cta-content p {
+    font-size: 1.4rem;
+}
+.call-md-04{
+    width: 33.3333333333%;
+}
+.call-md-08{
+    width: 66.6666666667%;
+}
+.scoial li {
+    margin-right: 2.6rem;
+    margin-bottom: 2rem;
+}
+.nav-bar-togle{
+    display: block;
+    background-color: transparent;
+}
+}

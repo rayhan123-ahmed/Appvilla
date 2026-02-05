@@ -16,3 +16,12 @@ const scrollTopBtn = document.querySelector('.scroll-top');
         scrollTopBtn.style.display = 'none';
     }
  });
+
+// add clasList for header toggle
+  const toggleBtn = document.querySelector('.nav-bar-togle')
+  const navMid = document.querySelector('.nav-mid')
+
+  toggleBtn.addEventListener('click',() =>{
+      navMid.classList.toggle('nav-mid-active');
+      toggleBtn.classList.toggle('nav-menu-active')
+  })

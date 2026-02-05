@@ -85,5 +85,54 @@
 .nav-bar-togle{
     display: block;
     background-color: transparent;
+    cursor: pointer;
 }
+.navbar {
+    justify-content: space-between;
+}
+  .nav-mid {
+    position: absolute;
+    top: 67px;
+    left: 0;
+    width: 100%;
+    background: #fff;
+    max-height: 0;
+    opacity: 0;
+    overflow: hidden;
+    transform: translateY(-10px);
+   transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+ 
+  }
+  .nav-mid-active{
+   margin-top: 2rem;
+   display: flex;
+   position: absolute;
+    top: 67px !important;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    z-index: 9;
+    box-shadow: 0px 15px 20px 0px rgba(0, 0, 0, 0.1);
+    padding: 10px 20px;
+    max-height: 350px;
+    overflow-y: scroll;
+    border-top: 1px solid #eee;
+    border-radius: 6px;
+    opacity: 1;
+    transform: translateY(0);
+  }
+  .nav-item {
+    margin: 0;
+}
+.nav-link {
+    padding: 12px 16px !important;
+    font-size: 1.2rem;
+    display: block;
+    color: #020202;
+}
+.nav-ul {
+    flex-direction: column;
+    width: 100%;
+}
+
 }
